@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>OTP Verifivation Component</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="text">
+            <div class="title">
+                Verify your Email adress
+            </div>
+
+            <div class="sub-titls">
+                <div class="sub-title">
+                    A four-digit number has been sent to your Email.
+                </div>
+    
+                <div class="sub-title2">
+                    Please enter the code below to verify the Email adress.
+                </div>
+            </div>
+        </div>
+
+        <div class="code-container">
+            <div class="st">
+                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]" class="code-input-1">
+            </div>
+
+            <div class="nd">
+                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]" class="code-input-2">
+            </div>
+
+            <div class="rd">
+                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]" class="code-input-3">
+            </div>
+
+            <div class="th">
+                <input type="text" maxlength="1" inputmode="numeric" pattern="[0-9]" class="code-input-4">
+            </div>
+        </div>
+
+        <div class="verify">
+            <button class="verify-button">
+                Verify OTP
+            </button>
+        </div>
+
+        <div class="incorrect-text">
+            The code is incorrect. Please try again.
+        </div>
+
+        <div class="code-text">
+            Please enter the code.
+        </div>
+
+        <div class="correct-text">
+            Code verified successfully! Your email has been confirmed.
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
